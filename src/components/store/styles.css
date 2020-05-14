@@ -1,0 +1,19 @@
+.card{
+    margin: 10vh;
+    width: 318px;
+    height: 206px;
+    border-radius: .25rem;
+}
+
+.btn{
+    margin: 10px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    /* border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem; */
+}
+
+.card-title{
+    margin: 10px;
+}
