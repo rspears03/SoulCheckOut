@@ -9,7 +9,7 @@ import ProductsPage from "./pages/products"
 import ViewCartPage from "./pages/view-cart"
 import HomePage from "./pages/home"
 
-import "./styles.css"
+// import "./styles.css"
 
 
 

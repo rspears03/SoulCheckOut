@@ -20,3 +20,7 @@
 .layout.top-bar .section:last-child {
     text-align: right;
 }
+
+#top-bar-ch{
+    font-family: 'Satisfy', cursive;
+}

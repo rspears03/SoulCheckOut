@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3010;
+const port = 8080;
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const connection = require('./config');
@@ -28,7 +28,6 @@ app.get('/home/:id', (req, res) => {
         if (error){
             console.error(error)
         }else{
-        console.log(results[0])
             res.send(results[0])
         }
       });

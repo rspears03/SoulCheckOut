@@ -1,0 +1,26 @@
+#contacts{
+    background-color: gray;
+    color: white;
+}
+
+#homeHeader{
+    float: left;
+    margin: 20px;
+    font-family: 'Shrikhand', cursive;
+}
+
+#services{
+    margin: 15px;
+}
+
+#about{
+    margin: 15px;
+}
+
+#contact{
+    margin: 15px;
+}
+
+.timeline{
+    list-style: none;
+}

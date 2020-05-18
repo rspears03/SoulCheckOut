@@ -11,7 +11,7 @@ function TopBar() {
 
     return <div className="layout top-bar">
         <div className="wrapper ">
-            <div className="section">Rodney's Chicken </div>
+            <div className="section" id='top-bar-ch'>Soul Chicken </div>
             <div className="section ">
             <Link to="/">Home</Link> | <Link to="/products">Menu</Link> | <Link to="/view-cart">View cart ({numItems})</Link>
             </div>

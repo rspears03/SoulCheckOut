@@ -37,7 +37,6 @@ function checkout() {
                 <thead className="thead-light">
                     <tr>
                         <th>Name</th>
-                        <th>Image</th>
                         <th>Quantity</th>
                         <th>Price</th>
                     </tr>
@@ -45,14 +44,13 @@ function checkout() {
                 <tbody>
                     {ctx.items.map(item => (
                         <tr>
-                            <td>{item.name}</td>
-                            <td>{item.photo}</td>
+                            <td>{item.title}</td>
                             <td>{item.quantity}</td>
                             <td>{formatPrice(item.price * item.quantity)}</td>
                         </tr>
                     ))}
                  <tr>
-                    <td colSpan={3}>Total:</td>
+                    <td colSpan={2}>Total:</td>
                     <td>{formatPrice(totalPrice(ctx.items))}</td>
                 </tr>
 
