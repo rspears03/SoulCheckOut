@@ -5,6 +5,7 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const connection = require('./config');
 
+app.use(express.static(__dirname))
 app.use(express.static('dist'));
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
