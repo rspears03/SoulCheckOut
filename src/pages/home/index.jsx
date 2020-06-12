@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from "../../components/layout"
 import './styles.css'
+import { Link } from "react-router-dom"
 // import "../src/assets/img/header-bg.jpg"
 // import "../../../src/assets/img/header-bg.jpg"
 // import "map-image.png"
@@ -8,46 +9,49 @@ import './styles.css'
 function HomePage() {
     return (
         <Layout>
-                     
+
+
         <header className="masthead">
             
             <div className="container">
             <div className="masthead-subheading" id="homeHeader"><h1>Welcome To Soul Chicken!</h1></div>
-            <img src="https://www.modernhoney.com/wp-content/uploads/2018/03/The-Best-Chicken-Marinade-Recipe.jpg" alt="" width="1000px" height="600px" id='serviceImg'></img>
+            <div > <Link className='orderNow' to="/products">Order Now</Link></div>  
+            {/* <img src="https://www.modernhoney.com/wp-content/uploads/2018/03/The-Best-Chicken-Marinade-Recipe.jpg" alt="" width="1000px" height="600px" id='serviceImg'></img> */}
             </div>
         </header>
          
-        <section className="page-section" >
+        <section className="page-section" id="service">
             <div className="container">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase" id='services'>Services</h2>
-                    <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 className="section-subheading text-p">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <div className="row text-center">
                     <div className="col-md-4">
                         <span className="fa-stack fa-4x"><i className="fa fa-circle fa-stack-2x text-primary"></i><i className="fa fa-shopping-cart fa-stack-1x fa-inverse"></i></span>
                         <h4 className="my-3">Great Chicken</h4>
-                        <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <p className="text-p serviceChicken">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
                     <div className="col-md-4">
                         <span className="fa-stack fa-4x"><i className="fa fa-circle fa-stack-2x text-primary"></i><i className="fa fa-laptop fa-stack-1x fa-inverse"></i></span>
                         <h4 className="my-3">Great Service</h4>
-                        <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <p className="text-p serviceChicken">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
                     <div className="col-md-4">
                         <span className="fa-stack fa-4x"><i className="fa fa-circle fa-stack-2x text-primary"></i><i className="fa fa-lock fa-stack-1x fa-inverse"></i></span>
-                        <h4 className="my-3">Web Security</h4>
-                        <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <h4 className="my-3"> Secure Payment with Stripe￼ </h4>
+                        <p className="text-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
                     </div>
                 </div>
             </div>
         </section>
                
-        <section className="page-section" id="about">
+
+        <section className="page-section-1" id="about">
             <div className="container">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase" id="about">About</h2>
-                    <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 className="section-subheading text-about">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <ul className="timeline">
                     <li>
@@ -55,9 +59,9 @@ function HomePage() {
                         <div className="timeline-panel">
                             <div className="timeline-heading">
                                 <h4>2015-2018</h4>
-                                <h4 className="subheading">Our Humble Beginnings</h4>
+                                <h4 className="subheading about-1">Our Humble Beginnings</h4>
                             </div>
-                            <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div className="timeline-body"><p className="text-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
                         </div>
                     </li>
                     <li>
@@ -65,9 +69,9 @@ function HomePage() {
                         <div className="timeline-panel">
                             <div className="timeline-heading">
                                 <h4>December 2018</h4>
-                                <h4 className="subheading">Transition to Full Service</h4>
+                                <h4 className="subheading about-1">Transition to Online Service</h4>
                             </div>
-                            <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div className="timeline-body"><p className="text-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
                         </div>
                     </li>
                     <li className="timeline-inverted">
@@ -75,9 +79,9 @@ function HomePage() {
                         <div className="timeline-panel">
                             <div className="timeline-heading">
                                 <h4>March 2020</h4>
-                                <h4 className="subheading">Phase Two Expansion</h4>
+                                <h4 className="subheading about-1">Expansion Across the United States</h4>
                             </div>
-                            <div className="timeline-body"><p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div className="timeline-body"><p className="text-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
                         </div>
                     </li>
                 </ul>
@@ -103,13 +107,13 @@ function HomePage() {
             </div>
         </section>
         
-        <section className="page-section" >
-            <div className="container" id="contacts">
+        <section className="page-section-2" >
+            <div className="container">
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase" id='contact'>Contact Us</h2>
                     <h3 className="section-subheading " id="text">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
-                <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                <form id="contactForm" name="sentMessage" noValidate="novalidate">
                     <div className="row align-items-stretch mb-5">
                         <div className="col-md-6">
                             <div className="form-group">

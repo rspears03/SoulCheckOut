@@ -1,7 +1,9 @@
-#contacts{
+/* #contacts{
     background-color: gray;
     color: white;
-}
+} */
+
+
 
 #homeHeader{
     float: left;
@@ -24,3 +26,125 @@
 .timeline{
     list-style: none;
 }
+
+.masthead{
+    overflow-x: hidden;
+    background-image: url("pics/The-Best-Chicken-Marinade-Recipe (1).jpg");
+    background-color: #cccccc;
+    height: 715px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 1440px;
+    right: 45px;
+    top: -8px;
+}
+
+.masthead-subheading{
+  text-align: center;
+  color:whitesmoke;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 45%;
+  left: 48%;
+  color: white;
+  padding: 30px;
+  margin: 20px;
+  background-color: black;
+
+}
+
+.orderNow{
+    text-align: center;
+    display: block;
+    color:whitesmoke;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 65%;
+    left: 48%;
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+    font-family: 'Shrikhand', cursive;
+    font-size: 30px;
+    /* text-decoration: none; */
+  } 
+
+
+  .orderNow:hover{
+    /* text-align: center; */
+    display: block;
+    color:whitesmoke;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 65%;
+    left: 48%;
+    padding: 20px;
+    margin: 20px;
+    background-color: red;
+    text-decoration: none;
+  }
+
+  #service{
+      margin: 100px;
+      padding: 50px;
+      background-color: black;
+      color: white;
+      position: relative;
+      width: 1500px;
+      left: -200px;
+      top: -108px;
+      /* height: 600px; */
+  }
+
+  .text-p{
+      color: white;      
+  }
+
+  .page-section-1{
+    background-color:#262626;
+    color: white;
+    position: relative;
+    width: 1500px;
+    top: -208px; 
+    padding: 50px;
+    left: -115px;
+      /* margin: 100px; */
+    /* height: 600px; */
+    /* text-align: center; */
+  }
+
+  .page-section-2{
+    color: black;
+    position: relative;
+    /* background-color:#333333; */
+    /* width: 1500px; */
+    top: -200px; 
+    /* padding: 50px; */
+    /* left: -115px; */
+      /* margin: 100px; */
+    /* height: 600px; */
+    /* text-align: center; */
+  }
+
+  /* .footer{
+     position: relative;
+     top: -300px;   
+    background-color: black;
+    height: 30px;
+    width: 1500px;
+    left: -100px;
+  } */
+
+  /* .align-items-center{
+    position: relative;
+    height: 30px; 
+      top: -300px;   
+  } */
+/* 
+  .container{
+      margin: 0px;
+      padding: 0px;
+  } */

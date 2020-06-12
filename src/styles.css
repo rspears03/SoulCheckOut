@@ -1,4 +1,4 @@
-
+/* 
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Agency v6.0.0 (https://startbootstrap.com/template-overviews/agency)
@@ -11,6 +11,8 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ 
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -26,7 +28,7 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #fed136;
-  --secondary: #6c757d;
+  /* --secondary: #6c757d; */
   --success: #28a745;
   --info: #17a2b8;
   --warning: #fed136;
@@ -9817,7 +9819,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d ;
+  color: red ;
 }
 
 .text-black-50 {
@@ -10455,4 +10457,4 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
+} 

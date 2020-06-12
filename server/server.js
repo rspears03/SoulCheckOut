@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 8080;
+const port = 3010;
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const connection = require('./config');

@@ -1,7 +1,8 @@
 .card{
-    margin: 10vh;
+    display: inline-block;
+    margin: 50px;
     width: 318px;
-    height: 206px;
+    height: 400px;
     border-radius: .25rem;
 }
 
@@ -16,4 +17,7 @@
 
 .card-title{
     margin: 10px;
+    /* background-color: #cccccc; */
 }
+
+

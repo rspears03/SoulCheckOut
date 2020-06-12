@@ -27,6 +27,8 @@ const fetchItems = async () => {
         <div>
             {items.map(item => (
                 <div className="card shadow" key={item.item_id}>
+                    <img className="card-img-top" src={item.photo} width="318" height="200"/>
+                     {/* <div className="card-img-top">{item.photo}</div> */}
                     <div className="card-title">{item.title}</div>
                     <div className="card-body"> {item.descr} </div>
                     <div>
